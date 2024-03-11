@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('./styles/var.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-color: var(--background);
+  color: var(--text-primary);
+  cursor: none;
+}
+
+
+.cursor-dot{
+width: 5px;
+height: 5px;
+background-color: rgb(179, 176, 27);
+
+}
+
+.cursor-outline{
+  width: 50px;
+  height: 50px;
+ 
+  
+  background-color: rgba(173, 167, 84, 0.411);
+  position: fixed;
+  top: 0;
+  left:0;
+  transform:translate(-50%, -50%);
+  
+
+}
+
+.cursor-dot,
+.cursor-outline{
+  position: fixed;
+  top: 0;
+  left:0;
+  transform:translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+h1{
+
+  
+  /* color: var(--text-primary); */
+  color:rgb(255, 221, 67);
+font-family: "Oswald", cursive;
+        font-size: 170px;
+       
+
+}
+
+
+h2{
+
+  
+  color: var(--text-primary);
+font-family: "Oswald", cursive;
+        font-size: 70px;
+        font-style: normal;
+
+}
+
+h3{
+  color: var(--text-primary);
+  font-family: "Oswald", cursive;
+          font-size: 35px;
+          font-style: normal;
+          
+}
+
+h4{
+
+  
+  color: var(--text-primary);
+  font-family: "Oswald", cursive;
+          font-size: 35px;
+          font-style: normal;
+
+}
+
+p{
+  color: var(--text-primary);
+  font-family:inherit;
+  font-weight: normal;
+          font-size: 20px;
+          
+}
+
+text{
+  color: var(--text-primary);
+  font-family:"Tusker Grotesk", sans-serif;
+  font-weight: 500;
+  line-height: 1;
+          font-size: 30px;
+          text-transform: uppercase;
+}
+
+.sun{
+  
+  margin-bottom: 10px;
+  width: 50px;
+  cursor: pointer;
+  margin-right: 14px;
+  
+}
+
+button{
+  font-size: 22px;
+  font-family: "Oswald", cursive;
+  
+  border: 4px solid #ffe600;
+  border-radius: 10px;
+ margin: 10px;
+ padding: 10px;
+
+ 
+  
+  color: var(--text-primary);
+ 
+}
+button:hover{
+  background-color: #ffe600;
+}
+
+
+
+
+@media (max-width:1070px){
+
+
+.casa{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+  .aboutMe{
+    height: 1000px;
+  }
+
+  .contentt{
+    width: 100%;
+  }
+
+
+  .contentt{
+    flex-direction: column;
+    height: 400px;
+  }
+
+  .image{
+    width: 100%;
+  }
+
+  .image2{
+    width: 100%;
+  }
+
+  h1{
+      font-size: 80px;
+  }
+
+
+  p{
+    font-size: 15px;
+  }
+  .content{
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      
+  }
+
+
+  .cardd{
+    height: 300px;
+  }
+
+
+
+  .contactera{
+    flex-direction: column;
+  }
+
+
+  .linkC{
+    flex-direction: column;
+  }
+}
+
+
+
+@media (max-width:508px){
+
+
+  .casa{
+    margin-top: 350px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+  }
+
+.botonera{
+  flex-direction: column;
+}
+
+.yo{
+justify-content: space-between;
+ height: 2000px;
+ 
+}
+
+ .sec-1{
+    
+    width: 100%;
+    height: 1500px;
+    justify-content: space-between;
+  }
+
+.container{
+  
+  height: 1000px;
+}
+
+.contentt{
+  height: 800px;
+  justify-content: space-between;
+}
+
+  
+.text-box{
+ padding: 0;
+ width: 100%;
+ 
+}
+
+
+.portafolio{
+  height: 1600px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.Gallery{
+  height: 1500px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+  .cardd{
+   flex-direction: column;
+   margin-top: 100px;
+   width: 100%;
+    
+  }  
+.pie{
+  margin-top: 600px;
+}
+
+ 
+  }

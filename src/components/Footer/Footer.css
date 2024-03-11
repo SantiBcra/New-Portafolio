@@ -1,0 +1,70 @@
+
+
+.pie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+   
+}
+
+.contactera{
+    display: flex;
+}
+
+
+.linkC{
+    display: flex;
+    margin: 5px;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.iconoContacto{
+    width: 50px;
+}
+
+
+.linkC:hover{
+    cursor: pointer;
+}
+
+
+
+.panel{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   height: 400px;
+    align-items: center;
+    justify-content: center; 
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon{
+    width: 120px;
+    padding: 20px 20px 0px 20px;
+   
+}
+
+
+.yellow{
+    color:rgb(255, 221, 67);
+}

@@ -1,0 +1,78 @@
+.sec-1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+     padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px; 
+}
+
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.contentt{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+
+
+
+.image{
+    position: relative;
+    height: 300px;
+    width: 600px;
+    overflow: hidden;
+}
+
+.perfil{
+    z-index: 111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.text-box{
+    z-index: 222;
+   
+    
+    padding: 40px;
+    max-width: 400px;
+   
+    border-radius: 10px;
+   
+}
+
+
+.image2{
+    position: relative;
+    height: 300px;
+    width: 600px;
+    overflow: hidden;
+}
+
+.text-box2{
+    z-index: 222;
+   
+   
+    padding: 40px;
+    max-width: 400px;
+   
+    border-radius: 10px;
+   
+}
