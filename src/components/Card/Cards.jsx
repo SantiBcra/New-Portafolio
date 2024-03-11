@@ -1,18 +1,24 @@
 import front from "../../../public/code f.jpg"
 import back from "../../../public/code b.jpg"
+import ScrollReveal from 'scrollreveal';
+import { useEffect } from "react";
 
 import "./Cards.css"
 
 function Cards() {
 
+    useEffect(() => {
 
-
-    ScrollReveal().reveal('.image', {delay:0, origin:"left", duration:1000});
-    ScrollReveal().reveal('.text-box', {delay:0, origin:"right", duration:1000});
+    ScrollReveal().reveal('.image', { reset: true,distance: "60px",delay:0, origin:"left", duration:1000});
+    ScrollReveal().reveal('.text-box', { reset: true,distance: "60px",delay:0, origin:"right", duration:1000});
 
     
-    ScrollReveal().reveal('.image2', {delay:0, origin:"right", duration:1000});
-    ScrollReveal().reveal('.text-box2', {delay:0, origin:"left", duration:1000});
+    ScrollReveal().reveal('.image2', { reset: true,distance: "60px",delay:0, origin:"right", duration:1000});
+    ScrollReveal().reveal('.text-box2', { reset: true,distance: "60px",delay:0, origin:"left", duration:1000});
+
+
+
+}, []);
     return ( 
 
 <>
